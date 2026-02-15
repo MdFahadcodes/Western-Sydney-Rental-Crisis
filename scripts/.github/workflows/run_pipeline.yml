@@ -1,0 +1,32 @@
+name: Data Pipeline Automation
+
+on:
+  push:
+    branches: [ "main" ]      # Runs when you push code
+  schedule:
+    - cron: '0 9 * * 1'       # Runs automatically every Monday at 9:00 AM UTC
+  workflow_dispatch:          
+  
+permissions:
+  contents: write
+
+jobs:
+  run-data-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Content
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Cleaning Script
+        run: |
+          python scripts/data_cleaning.py
