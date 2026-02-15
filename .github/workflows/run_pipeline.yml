@@ -2,11 +2,11 @@ name: Data Pipeline Automation
 
 on:
   push:
-    branches: [ "main" ]      # Runs when you push code
+    branches: [ "main" ]
   schedule:
-    - cron: '0 9 * * 1'       # Runs automatically every Monday at 9:00 AM UTC
-  workflow_dispatch:          
-  
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
 permissions:
   contents: write
 
