@@ -1,0 +1,11 @@
+suburb,postcode,rent_2025,income_2025,rental_stress_rate,market_avg_stress,variance_from_avg,risk_rank,risk_category
+Auburn,2144,695.0,1750.69,39.7,32.2,7.5,1,Severe Risk
+Bankstown,2200,622.5,1589.66,39.16,32.2,6.96,2,Severe Risk
+Liverpool,2170,600.0,1788.37,33.55,32.2,1.35,3,High Stress
+Mt Druitt,2770,500.0,1514.29,33.02,32.2,0.82,4,High Stress
+Campbelltown,2560,570.0,1837.48,31.02,32.2,-1.18,5,High Stress
+St Marys,2760,550.0,1798.65,30.58,32.2,-1.62,6,High Stress
+Penrith,2750,570.0,1888.87,30.18,32.2,-2.02,7,High Stress
+Blacktown,2148,600.0,2055.6,29.19,32.2,-3.01,8,Moderate
+Parramatta,2150,665.0,2346.81,28.34,32.2,-3.86,9,Moderate
+Westmead,2145,650.0,2386.78,27.23,32.2,-4.97,10,Moderate
