@@ -1,5 +1,6 @@
 # 🏠 Western Sydney Rental Crisis Analysis (2024-2025)
 
+![Data Pipeline](https://github.com/MdFahadcodes/Western-Sydney-Rental-Crisis/actions/workflows/run_pipeline.yml/badge.svg)
 Live dashboard demonstration: https://github.com/user-attachments/assets/4fbfa5e0-bf17-4179-ab5a-9aa83d357f98
 
 ## 📌 Project Overview
