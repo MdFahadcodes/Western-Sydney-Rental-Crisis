@@ -1,7 +1,6 @@
   🏠 Western Sydney Rental Crisis Analysis (2024-2025)
 
-[Data Pipeline Status](https://github.com/MdFahadcodes/Western-Sydney-Rental-Crisis/actions/workflows/run_pipeline.yml/badge.svg)
-[Power BI](https://img.shields.io/badge/Power_BI-Desktop-yellow?logo=power-bi&logoColor=black)
+PowerBI: https://github.com/user-attachments/assets/4fbfa5e0-bf17-4179-ab5a-9aa83d357f98
 
    📊 Project Overview
 This project provides a comprehensive data analytics solution to track and visualize the rental affordability crisis in Western Sydney. By integrating multiple datasets, the analysis identifies "Crisis Hotspots" where rental stress (rent-to-income ratio) exceeds the critical 30% threshold.
@@ -10,17 +9,12 @@ Moving beyond a static report, this repository features an  automated analytics 
 
 
 
-Live Interactive Dashboard
-👉 Click Here to View the Interactive Dashboard on NovyPro.
-
-
 
 Key Analytics Insights
 Rental Stress Peak:  Identified key suburbs like  Auburn  reaching rental stress levels of  39.7% .
 The Wage-Rent Gap:  While the model assumes a conservative  1.15% quarterly wage growth  (benchmarked against ABS Wage Price Index), rental prices have significantly outpaced local earnings.
 Trend Velocity:  Analysis of "Max Rent Growth ('24-'25)" reveals accelerated price surges in specific Western Sydney postcodes post-pandemic.
 
----
 
    🛠 Technical Workflow & Automation
 
