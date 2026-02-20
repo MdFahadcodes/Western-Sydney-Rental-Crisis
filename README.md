@@ -29,21 +29,22 @@ The project utilizes a modular Python architecture to ensure clean, reproducible
 4.  `4_analyze_trends.py`: Calculates statistical measures and rental stress percentages.
 5.  `export_for_powerbi.py`: Formats the final dataset for seamless Power BI integration.
 
-  ## 2. Automated Quality Assurance (GitHub Actions)
+ ### 2. Automated Quality Assurance (GitHub Actions)
 
 A CI/CD pipeline (`run_pipeline.yml`) is configured to:
+
 * **Trigger:** Automatically every Monday at 9:00 AM UTC.
 * **Environment:** Installs necessary dependencies (`pandas`, `numpy`, `openpyxl`) in a virtual Linux environment.
 * **Validation:** Executes the full script sequence to verify that the analytical logic remains functional as libraries or data update.
 
 ---
 
-## 3. Data Visualization (Power BI)
+### 3. Data Visualization (Power BI)
+
+The final dashboard provides interactive insights into Western Sydney's rental market:
 
 * **Dynamic DAX Measures:** Developed context-aware headlines and smart narratives to provide real-time insights.
 * **UX Design:** Synchronized visuals where scatter plot outliers correspond to map-based geographical hotspots, ensuring a seamless analytical experience.
-
----
 
 ## 📂 Repository Structure
 
