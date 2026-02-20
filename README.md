@@ -7,7 +7,10 @@ This project provides a comprehensive data analytics solution to track and visua
 
 Moving beyond a static report, this repository features an  automated analytics workflow  that validates data processing every Monday morning.
 
-
+## 📊 Data Sources
+This analysis integrates two primary datasets to calculate rental stress:
+* **NSW Fair Trading Rental Bond Data:** Used for actual median weekly rent prices and bond lodgement volumes by postcode.
+* **ABS Census Data (2021):** Provides the baseline median household income, which is then modeled using a 1.15% quarterly wage growth projection.
 
 
 Key Analytics Insights
