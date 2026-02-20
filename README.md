@@ -21,7 +21,7 @@ Moving beyond a static report, this repository features an  automated analytics 
 
  ## 🛠 Technical Workflow & Automation
 
-    1. Data Processing Pipeline (Python)
+    1. Data Processing Pipeline (Python) 
 The project utilizes a modular Python architecture to ensure clean, reproducible data. The scripts are executed in the following order:
 1.  `1_process_income.py`: Models 2024-2025 income data based on quarterly growth trends.
 2.  `2_process_bonds.py`: Cleans and standardizes rental bond lodgment data.
@@ -29,19 +29,19 @@ The project utilizes a modular Python architecture to ensure clean, reproducible
 4.  `4_analyze_trends.py`: Calculates statistical measures and rental stress percentages.
 5.  `export_for_powerbi.py`: Formats the final dataset for seamless Power BI integration.
 
-    2. Automated Quality Assurance (GitHub Actions)
-A CI/CD pipeline (`run_pipeline.yml`) is configured to:
-* Trigger automatically every  Monday at 9:00 AM UTC .
-* Install necessary dependencies (`pandas`, `numpy`, `openpyxl`) in a virtual Linux environment.
-* Execute the full script sequence to verify that the analytical logic remains functional as libraries or data update.
+   2. Automated Quality Assurance (GitHub Actions)
+A CI/CD pipeline (run_pipeline.yml) is configured to:
 
+Trigger automatically every Monday at 9:00 AM UTC.
 
+Install necessary dependencies (pandas, numpy, openpyxl) in a virtual Linux environment.
 
-    3. Data Visualization (Power BI)
-*  Dynamic DAX Measures:  Developed context-aware headlines and smart narratives.
-*  UX Design:  Synchronized visuals where scatter plot outliers correspond to map-based geographical hotspots.
+Execute the full script sequence to verify that the analytical logic remains functional as libraries or data update.
 
+3. Data Visualization (Power BI)
+Dynamic DAX Measures: Developed context-aware headlines and smart narratives.
 
+UX Design: Synchronized visuals where scatter plot outliers correspond to map-based geographical hotspots.
 
    📂 Repository Structure
 ```text
