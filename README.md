@@ -1,7 +1,7 @@
 # 🏠 Western Sydney Rental Crisis Analysis (2024-2025)
 
 ![Data Pipeline](https://github.com/MdFahadcodes/Western-Sydney-Rental-Crisis/actions/workflows/run_pipeline.yml/badge.svg)
-Live dashboard demonstration: https://github.com/user-attachments/assets/4fbfa5e0-bf17-4179-ab5a-9aa83d357f98
+![Live dashboard demonstration:](https://github.com/user-attachments/assets/4fbfa5e0-bf17-4179-ab5a-9aa83d357f98)
 
 ## 📌 Project Overview
 This end-to-end data analytics project investigates the intensifying rental affordability crisis in Western Sydney. By integrating recent housing costs and modeling them against local incomes, the analysis identifies geographical hotspots where rental stress (the percentage of income spent on rent) exceeds the critical 30% threshold.
