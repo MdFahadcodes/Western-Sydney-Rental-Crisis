@@ -29,27 +29,30 @@ The project utilizes a modular Python architecture to ensure clean, reproducible
 4.  `4_analyze_trends.py`: Calculates statistical measures and rental stress percentages.
 5.  `export_for_powerbi.py`: Formats the final dataset for seamless Power BI integration.
 
-   2. Automated Quality Assurance (GitHub Actions)
-A CI/CD pipeline (run_pipeline.yml) is configured to:
+  ## 2. Automated Quality Assurance (GitHub Actions)
 
-Trigger automatically every Monday at 9:00 AM UTC.
+A CI/CD pipeline (`run_pipeline.yml`) is configured to:
+* **Trigger:** Automatically every Monday at 9:00 AM UTC.
+* **Environment:** Installs necessary dependencies (`pandas`, `numpy`, `openpyxl`) in a virtual Linux environment.
+* **Validation:** Executes the full script sequence to verify that the analytical logic remains functional as libraries or data update.
 
-Install necessary dependencies (pandas, numpy, openpyxl) in a virtual Linux environment.
+---
 
-Execute the full script sequence to verify that the analytical logic remains functional as libraries or data update.
+## 3. Data Visualization (Power BI)
 
-3. Data Visualization (Power BI)
-Dynamic DAX Measures: Developed context-aware headlines and smart narratives.
+* **Dynamic DAX Measures:** Developed context-aware headlines and smart narratives to provide real-time insights.
+* **UX Design:** Synchronized visuals where scatter plot outliers correspond to map-based geographical hotspots, ensuring a seamless analytical experience.
 
-UX Design: Synchronized visuals where scatter plot outliers correspond to map-based geographical hotspots.
+---
 
-   📂 Repository Structure
+## 📂 Repository Structure
+
 ```text
 ├── .github/workflows
-│   └── run_pipeline.yml        Automation configuration
+│   └── run_pipeline.yml        # Automation configuration
 ├── data
-│   ├── raw/                    Initial datasets
-│   └── processed/              Output from Python scripts
+│   ├── raw/                    # Initial datasets (NSW Fair Trading & ABS)
+│   └── processed/              # Cleaned output from Python scripts
 ├── scripts
 │   ├── 1_process_income.py
 │   ├── 2_process_bonds.py
@@ -57,6 +60,6 @@ UX Design: Synchronized visuals where scatter plot outliers correspond to map-ba
 │   ├── 4_analyze_trends.py
 │   └── export_for_powerbi.py
 ├── dashboard
-│   └── Exec summary.pbix       Power BI source file
-├── requirements.txt            Python dependencies
+│   └── Exec summary.pbix       # Power BI source file
+├── requirements.txt            # Python dependencies
 └── README.md
