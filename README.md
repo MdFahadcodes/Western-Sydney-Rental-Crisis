@@ -1,25 +1,25 @@
-  🏠 Western Sydney Rental Crisis Analysis (2024-2025)
+# 🏠 Western Sydney Rental Crisis Analysis (2024-2025)
 
+Live dashboard demonstration: https://github.com/user-attachments/assets/4fbfa5e0-bf17-4179-ab5a-9aa83d357f98
+
+## 📌 Project Overview
+This end-to-end data analytics project investigates the intensifying rental affordability crisis in Western Sydney. By integrating recent housing costs and modeling them against local incomes, the analysis identifies geographical hotspots where rental stress (the percentage of income spent on rent) exceeds the critical 30% threshold.
+
+## 📊 Data Sources
+This analysis integrates two primary datasets to calculate accurate rental stress:
+* **NSW Fair Trading Rental Bond Data:** Used for actual median weekly rent prices, dwelling types, and bond lodgement volumes by postcode.
+* **ABS Census Data (2021):** Provides the baseline median household income, which is then extrapolated using a 1.15% quarterly wage growth projection.
 PowerBI: https://github.com/user-attachments/assets/4fbfa5e0-bf17-4179-ab5a-9aa83d357f98
-
-   📊 Project Overview
-This project provides a comprehensive data analytics solution to track and visualize the rental affordability crisis in Western Sydney. By integrating multiple datasets, the analysis identifies "Crisis Hotspots" where rental stress (rent-to-income ratio) exceeds the critical 30% threshold.
 
 Moving beyond a static report, this repository features an  automated analytics workflow  that validates data processing every Monday morning.
 
-## 📊 Data Sources
-This analysis integrates two primary datasets to calculate rental stress:
-* **NSW Fair Trading Rental Bond Data:** Used for actual median weekly rent prices and bond lodgement volumes by postcode.
-* **ABS Census Data (2021):** Provides the baseline median household income, which is then modeled using a 1.15% quarterly wage growth projection.
 
+## 📈 Key Insights & Visualization (Power BI)
+* **The "Affordability" Illusion:** The data reveals that while suburbs like Auburn may have lower baseline rents, the lower local incomes push the rental stress peak to a critical 39.7%, highlighting the disparity between flat wage growth and rent hikes.
+* **Rental Stress Mapping:** Utilizes Azure Maps to visualize postcodes where low-to-middle income earners are most vulnerable.
+* **Trend Velocity Tracking:** Compares historical bond data against modeled current-year projections to identify emerging "hot zones".
 
-Key Analytics Insights
-Rental Stress Peak:  Identified key suburbs like  Auburn  reaching rental stress levels of  39.7% .
-The Wage-Rent Gap:  While the model assumes a conservative  1.15% quarterly wage growth  (benchmarked against ABS Wage Price Index), rental prices have significantly outpaced local earnings.
-Trend Velocity:  Analysis of "Max Rent Growth ('24-'25)" reveals accelerated price surges in specific Western Sydney postcodes post-pandemic.
-
-
-   🛠 Technical Workflow & Automation
+ ## 🛠 Technical Workflow & Automation
 
     1. Data Processing Pipeline (Python)
 The project utilizes a modular Python architecture to ensure clean, reproducible data. The scripts are executed in the following order:
