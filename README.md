@@ -9,7 +9,7 @@ This end-to-end data analytics project investigates the intensifying rental affo
 This analysis integrates two primary datasets to calculate accurate rental stress:
 * **NSW Fair Trading Rental Bond Data:** Used for actual median weekly rent prices, dwelling types, and bond lodgement volumes by postcode.
 * **ABS Census Data (2021):** Provides the baseline median household income, which is then extrapolated using a 1.15% quarterly wage growth projection.
-PowerBI: https://github.com/user-attachments/assets/4fbfa5e0-bf17-4179-ab5a-9aa83d357f98
+
 
 Moving beyond a static report, this repository features an  automated analytics workflow  that validates data processing every Monday morning.
 
